@@ -52,11 +52,11 @@ Description: For this vulnerability, on the log in screen, if the username exist
 
 <img src="enumeration.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: XSS Attack
 
-Description:
+Description: You can put arbitrary javascript in the feedback form, which will be rendered when the admin views the feedback.
 
-<img src="green-vuln2.gif">
+<img src="xss.gif">
 
 
 ## Red

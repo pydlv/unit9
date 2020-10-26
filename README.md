@@ -46,11 +46,11 @@ Description: Basically if you are able to get the value of someone's session coo
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
 
-Description:
+Description: For this vulnerability, on the log in screen, if the username exists and the login fails then it will be shown in bold, otherwise it will not be bolded.
 
-<img src="green-vuln1.gif">
+<img src="enumeration.gif">
 
 Vulnerability #2: __________________
 

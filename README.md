@@ -38,11 +38,11 @@ Time based injection is slow, but it allows me access to the data in the databas
 <img src="sqlmap.png">
 <img src="sqli.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
 
-Description:
+Description: Basically if you are able to get the value of someone's session cookie you are able to take over their session in another browser.
 
-<img src="blue-vuln2.gif">
+<img src="hijack.gif">
 
 ## Green
 

@@ -44,6 +44,20 @@ Description: Basically if you are able to get the value of someone's session coo
 
 <img src="hijack.gif">
 
+## Red
+
+Vulnerability #1: CSRF Form Vulnerability
+
+Description: Basically you can put a form that will autosubmit into the contact page, and a link to it in the feedback form. It's a problem because on the red version of the site, the CSRF token is not validated, so it will accept the post request regardless of where it originated from.
+
+<img src="csrf.gif">
+
+Vulnerability #2: __________________
+
+Description:
+
+<img src="red-vuln2.gif">
+
 ## Green
 
 Vulnerability #1: Username Enumeration
@@ -57,21 +71,6 @@ Vulnerability #2: XSS Attack
 Description: You can put arbitrary javascript in the feedback form, which will be rendered when the admin views the feedback.
 
 <img src="xss.gif">
-
-
-## Red
-
-Vulnerability #1: __________________
-
-Description:
-
-<img src="red-vuln1.gif">
-
-Vulnerability #2: __________________
-
-Description:
-
-<img src="red-vuln2.gif">
 
 
 ## Notes

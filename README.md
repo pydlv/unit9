@@ -38,6 +38,8 @@ Time based injection is slow, but it allows me access to the data in the databas
 <img src="sqlmap.png">
 <img src="sqli.gif">
 
+**I believe this also satisfies Bonus Objective 1.**
+
 Vulnerability #2: Session Hijacking/Fixation
 
 Description: Basically if you are able to get the value of someone's session cookie you are able to take over their session in another browser.
@@ -75,4 +77,4 @@ Description: You can put arbitrary javascript in the feedback form, which will b
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+The most challenging was definitely the SQL injjection one. I had to specify the --string option manually to SQLMap, which you usually don't have to do in order to get it to detect the injection method successfully.

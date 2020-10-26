@@ -52,11 +52,11 @@ Description: Basically you can put a form that will autosubmit into the contact 
 
 <img src="csrf.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Insecure Direct Object Reference
 
-Description:
+Description: On the "Find a Salesperson" page, you are able to view a sales person by visiting https://104.198.208.81/red/public/salesperson.php?id=1 and replacing ID with the corresponding ID. The problem is that on the red site, it does not verify that you are permitted to veiw that sales person. For instance, in the sales person listing page in the admin site, it shows a couple of sales people that should not be visible (IDs 10 and 11). You are still able to view them on the public site by visiting https://104.198.208.81/red/public/salesperson.php?id=10 or https://104.198.208.81/red/public/salesperson.php?id=11.
 
-<img src="red-vuln2.gif">
+<img src="idor.gif">
 
 ## Green
 
